@@ -1,0 +1,228 @@
+{
+  "id": "886bc410-9494-4a6f-9f62-1c0f6a9b9b38",
+  "version": "2.0",
+  "name": "Assignment1",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "836be995-8075-4e17-af17-92cf16d7fe65",
+    "name": "Test1",
+    "commands": [{
+      "id": "e2245be7-73fb-4e79-9007-fbd6361c1da5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6247f18c-a775-4ad0-b2b1-750345306558",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x811",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea48b3d2-c47e-4db5-b966-9471b77ad737",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "spur"
+    }, {
+      "id": "3f82c3a1-33a9-4e74-bf9d-3ab080a46cbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf b",
+      "targets": [
+        ["css=#jZ2SBf b", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'quest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb5e9a29-e9ae-4650-b369-3faafdce8a05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'SpurQuest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91f99804-1581-4c78-b97f-97739bd00cb9",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Home",
+      "targets": [],
+      "value": "Home"
+    }, {
+      "id": "0d2bf494-ce5c-4a33-a28d-041afc5fbb3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.et_pb_button_0_tb_body",
+      "targets": [
+        ["css=.et_pb_button_0_tb_body", "css:finder"],
+        ["xpath=//a[contains(text(),'Book a free consultation')]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://spurquest.com/contact-us/')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "537b7237-4058-4671-aea3-2c0a27c57088",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "6f694955-a671-4020-ab3b-d87d4a01f25a",
+      "comment": "",
+      "command": "echo",
+      "target": "https://spurquest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b90dadd9-0698-431e-b78c-03c8c57ba6c7",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "SpurQuest",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "3a2b996d-0f53-4ec6-bf89-7dc62117697f",
+      "comment": "",
+      "command": "echo",
+      "target": "${x}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "224b1556-f7e9-444c-9e0e-9f71b75b1f49",
+    "name": "TestAssignment2",
+    "commands": [{
+      "id": "8b3a9a94-7fad-4587-ba12-e94e1c772c4a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9ad7542-5973-4703-a99a-e1ab144fd461",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9841e0cb-a55f-4e90-912d-eedbbe831fa4",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "spur"
+    }, {
+      "id": "5034ade4-2bf5-47ab-b19a-fd2a19d0bdbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf b",
+      "targets": [
+        ["css=#jZ2SBf b", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'quest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2acdc2d-bd9f-4a5e-8a4f-fa7f67afa0b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'SpurQuest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a7172e3-3226-49b8-883e-7123a1fbe18f",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Home",
+      "targets": [],
+      "value": "Home"
+    }, {
+      "id": "01075b49-5a38-47ac-bc15-b5f822895919",
+      "comment": "",
+      "command": "echo",
+      "target": "https://spurquest.com/",
+      "targets": [],
+      "value": "https://spurquest.com/"
+    }, {
+      "id": "c12bdcb0-efc7-442a-baa7-672a40493cea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,64.80000305175781)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccc89cd3-183f-4009-8897-04237693d403",
+      "comment": "",
+      "command": "click",
+      "target": "css=.et_pb_button_0_tb_body",
+      "targets": [
+        ["css=.et_pb_button_0_tb_body", "css:finder"],
+        ["xpath=//a[contains(text(),'Book a free consultation')]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://spurquest.com/contact-us/')])[5]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "900146e7-3582-482c-8650-dc078eb1bd32",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,44.79999923706055)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d445887-fd5a-4ed5-91c3-baf86b1bbb6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.et_pb_toggle_0_tb_body > .et_pb_toggle_title",
+      "targets": [
+        ["css=.et_pb_toggle_0_tb_body > .et_pb_toggle_title", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/div[2]/div/div/h5", "xpath:idRelative"],
+        ["xpath=//h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'How long does the SDET course take to complete?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1cf0d88a-79ff-48f3-884c-e652e58c2ef3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["836be995-8075-4e17-af17-92cf16d7fe65"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
